@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=MhkGQAoc7bc&amp;list=PLoYCgNOIyGABj2GQSlDRjgvXtq
 - par defaut, state est null
 - Dans le React Dev tool, on peux accéder aux commenents dans la console avec un $r
 - ce qui permet par la suite de faire un changement de state, $r.setState({title: 'Welcome Bob!!!'});
+- si on ne fait pas de .bind(this), la methode va s'écuter dans le contexte dans laquel elle a été déclarée
 
 
 Github repo
