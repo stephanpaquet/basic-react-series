@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=MhkGQAoc7bc&amp;list=PLoYCgNOIyGABj2GQSlDRjgvXtq
 - JSX convertit en syntax DOM ex. document.createElement
 - au render, on ne peux avoir deux éléments, on doit toujours entouré d'un seul élément
 - Best practice: on ne doit pas inclure de la logique dans le render, idéalement dans une methode de la class. Ou mieux encore .. utiliser un constructor de la class
+- par defaut, state est null
+- Dans le React Dev tool, on peux accéder aux commenents dans la console avec un $r
+- ce qui permet par la suite de faire un changement de state, $r.setState({title: 'Welcome Bob!!!'});
 
 
 Github repo
