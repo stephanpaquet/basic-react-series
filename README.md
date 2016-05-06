@@ -11,7 +11,8 @@ https://www.youtube.com/watch?v=MhkGQAoc7bc&amp;list=PLoYCgNOIyGABj2GQSlDRjgvXtq
 - Dans le React Dev tool, on peux accéder aux commenents dans la console avec un $r
 - ce qui permet par la suite de faire un changement de state, $r.setState({title: 'Welcome Bob!!!'});
 - si on ne fait pas de .bind(this), la methode va s'écuter dans le contexte dans laquel elle a été déclarée
-
+- Toute les fois que nous changeons la route, une nouveau component est recréé
+- Pour prévenir des memory leeks, tous les listeners que nous créons dans componentWillMount on doit les supprimer dans la méthode componentWillUnmount
 
 Github repo
 https://github.com/learncodeacademy/react-js-tutorials
